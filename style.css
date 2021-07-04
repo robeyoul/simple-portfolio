@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: initial;
-  overflow: hidden;
+  /*  overflow: hidden; */
 }
 
 html {
@@ -18,10 +18,11 @@ body {
 
 section {
   padding-bottom: 10rem;
+  height: 100vh;
+  width: 100%;
 }
 
 .banner {
-  width: 100vw;
   display: flex;
   background-image: url(./images/top-banner.png);
   background-repeat: no-repeat;
@@ -52,18 +53,18 @@ section {
 
 .btn {
   text-decoration: none;
-  font-size: 2.3rem;
-  background-image: linear-gradient(to left, orange, yellow);
-  padding: 1rem 3rem;
+  font-size: 2rem;
+  background-image: linear-gradient(to left, orange, gold);
+  padding: 0.6rem 3rem;
   border: none;
   text-transform: uppercase;
   color: dimgray;
   font-weight: 700;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 
 .banner__img {
@@ -74,3 +75,17 @@ section {
 .banner__img img {
   width: 100%;
 }
+
+/* dream section */
+.dream {
+  display: flex;
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.dream__img {
+  margin-left: 8rem;
+}
+
+/* end of dream section */
