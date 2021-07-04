@@ -118,3 +118,14 @@ section {
 }
 
 /* end experience section */
+
+/* footer section */
+
+footer p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 3rem 0;
+  text-transform: capitalize;
+  color: #333;
+  font-weight: 200;
+}
